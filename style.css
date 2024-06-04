@@ -1,0 +1,73 @@
+body {
+    background-image: url("_8d33e7a6-b828-4e86-9494-2fb28a28f568.jpg");
+}
+
+button {
+    border: none;
+    background: #4070f4;
+    padding: 16px 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    transition: 0.2s;
+    /* Добавляем неоновый стиль */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+button:hover {
+    box-shadow: 0 0 0 4px rgb(255, 255, 255), 0 0 0 8px #ff00f2;
+}
+
+/* Остальные стили остаются без изменений */
+h1 {
+    color: lime;
+}
+
+#first_line {
+    color: lime;
+}
+
+a {
+    color: white;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: #4070f4;
+    border: solid 4px #4070f4;
+    border-radius: 8px;
+    padding: 0 24px 0 24px;
+    margin: 0 10px 0 0;
+}
+
+#link_my_Yt {
+    color: rgb(85, 20, 94);
+}
+
+#sec {
+    color: rgb(0, 217, 255);
+}
+
+#third {
+    color: rgb(201, 243, 17);
+}
+
+#fourth {
+    color: rgb(255, 0, 200);
+}
+
+#fifth {
+    color: rgb(255, 0, 0);
+}
+
+#sup {
+    color: rgb(255, 255, 95);
+}
+
+h1:hover {
+    text-shadow: red -3px 0, cyan 3px 0;
+}
+
+#my_photoOnCircle:hover {
+    transition: all 2s;
+    border-radius: 75px;
+}
